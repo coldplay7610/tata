@@ -1,3 +1,8 @@
+/**
+ * Created by lenovo on 2016/12/5.
+ */
+var express = require('express');
+//因为页面已经有了样式了，这些样式的路径都是放在bower_components下面，告诉express请求页面所过来的请求中，请求样式或者是脚本的话
 //都让它在bower_components下面去查找，
 var path = require('path');
 var _ = require('underscore');//uderscore它里面有一个extend这个方法，它可以另外一个对象的新的字段来替换掉老的对象对应的字段。
